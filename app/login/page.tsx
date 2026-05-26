@@ -20,7 +20,7 @@ const roles: { id: UserRole; label: string; description: string; icon: React.Rea
   {
     id: 'docente',
     label: 'Docente',
-    description: 'Gestión de pictogramas y estudiantes',
+    description: 'Gestión de estudiantes',
     icon: <Users className="h-12 w-12" />,
     color: 'bg-[oklch(0.92_0.05_145)] hover:bg-[oklch(0.88_0.08_145)] border-[oklch(0.6_0.15_145)]',
     route: '/docente',
@@ -28,7 +28,7 @@ const roles: { id: UserRole; label: string; description: string; icon: React.Rea
   {
     id: 'familia',
     label: 'Familia',
-    description: 'Ver progreso y comunicación',
+    description: 'Ver progreso, pictogramas y comunicación',
     icon: <Home className="h-12 w-12" />,
     color: 'bg-[oklch(0.94_0.05_350)] hover:bg-[oklch(0.90_0.08_350)] border-[oklch(0.7_0.15_350)]',
     route: '/familia',

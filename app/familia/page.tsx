@@ -215,6 +215,29 @@ export default function FamiliaPage() {
           </CardContent>
         </Card>
 
+        {/* Family Management */}
+<Card>
+  <CardHeader>
+    <CardTitle className="text-lg">
+      Gestión Familiar
+    </CardTitle>
+  </CardHeader>
+
+  <CardContent className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <Button asChild size="lg" className="h-16 touch-target">
+      <Link href="/familia/pictogramas">
+        Gestionar Pictogramas
+      </Link>
+    </Button>
+
+    <Button asChild size="lg" variant="outline" className="h-16 touch-target">
+      <Link href="/familia/carpetas">
+        Gestionar Carpetas
+      </Link>
+    </Button>
+  </CardContent>
+</Card>
+
         {/* Actions */}
         <div className="grid grid-cols-2 gap-4">
           <Button asChild size="lg" className="h-14 touch-target">
@@ -222,6 +245,7 @@ export default function FamiliaPage() {
               Ver Tablero
             </Link>
           </Button>
+
           <Button asChild size="lg" variant="outline" className="h-14 touch-target">
             <Link href="/estudiante/rutinas">
               Ver Rutinas

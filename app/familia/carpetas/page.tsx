@@ -38,7 +38,7 @@ export default function CarpetasPage() {
     <div className="min-h-screen bg-background">
       <AACHeader 
         title="Gestión de Carpetas" 
-        backHref="/docente"
+        backHref="/familia"
         showSettings={false}
       />
 
